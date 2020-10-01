@@ -1,0 +1,655 @@
+[1601372563.920][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 21804
+[1601372563.920][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1601372565.810][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "F:\\MoodPanda\\build\\downloads\\1601372554029_7908_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "F:\\MoodPanda\\build\\downloads\\1601372554029_7908_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1601372565.852][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "F:\\MoodPanda\\build\\downloads\\1601372554029_7908_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1601372566.016][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1601372566.165][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\684C~1\AppData\Local\Temp\scoped_dir3012_939357113" data:,
+[1601372589.890][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601372592.548][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1601372610.638][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.102",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\684C~1\\AppData\\Local\\Temp\\scoped_dir3012_939357113"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:53613"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "384e0c9421ce383ffd5ea2312edf6caa"
+}
+[1601372611.066][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND MaximizeWindow {
+
+}
+[1601372611.097][INFO]: Waiting for pending navigations...
+[1601372611.140][INFO]: Done waiting for pending navigations. Status: ok
+[1601372611.522][INFO]: Waiting for pending navigations...
+[1601372611.636][INFO]: Done waiting for pending navigations. Status: ok
+[1601372611.636][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE MaximizeWindow {
+   "height": 1066,
+   "width": 1936,
+   "x": -8,
+   "y": -8
+}
+[1601372611.655][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND Navigate {
+   "url": "https://moodpanda.com/"
+}
+[1601372611.655][INFO]: Waiting for pending navigations...
+[1601372611.656][INFO]: Done waiting for pending navigations. Status: ok
+[1601372619.185][INFO]: Waiting for pending navigations...
+[1601372650.023][INFO]: Done waiting for pending navigations. Status: ok
+[1601372650.023][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE Navigate
+[1601372650.489][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".btn.btn-outline-light.hidden-height-570.page-scroll"
+}
+[1601372650.489][INFO]: Waiting for pending navigations...
+[1601372650.983][INFO]: Done waiting for pending navigations. Status: ok
+[1601372651.586][INFO]: Waiting for pending navigations...
+[1601372651.588][INFO]: Done waiting for pending navigations. Status: ok
+[1601372651.588][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f87fcb96-4913-4ecf-b453-0a40f809f82d"
+}
+[1601372651.698][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f87fcb96-4913-4ecf-b453-0a40f809f82d"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601372651.698][INFO]: Waiting for pending navigations...
+[1601372651.699][INFO]: Done waiting for pending navigations. Status: ok
+[1601372651.794][INFO]: Waiting for pending navigations...
+[1601372651.794][INFO]: Done waiting for pending navigations. Status: ok
+[1601372651.794][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE ExecuteScript true
+[1601372651.800][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "f87fcb96-4913-4ecf-b453-0a40f809f82d",
+      "element-6066-11e4-a52e-4f735466cecf": "f87fcb96-4913-4ecf-b453-0a40f809f82d"
+   }, 0, 0 ],
+   "script": "var rect = arguments[0].getBoundingClientRect();arguments[0].dispatchEvent(new MouseEvent('click', { 'view': window, 'bubbles': true, 'cancelable': true, 'clientX': rect.left + rect.width/2 + argum..."
+}
+[1601372651.800][INFO]: Waiting for pending navigations...
+[1601372651.801][INFO]: Done waiting for pending navigations. Status: ok
+[1601372653.327][INFO]: Waiting for pending navigations...
+[1601372658.090][INFO]: Done waiting for pending navigations. Status: ok
+[1601372658.091][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE ExecuteScript null
+[1601372658.096][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input#ContentPlaceHolderContent_TextBoxEmail"
+}
+[1601372658.096][INFO]: Waiting for pending navigations...
+[1601372658.096][INFO]: Done waiting for pending navigations. Status: ok
+[1601372658.112][INFO]: Waiting for pending navigations...
+[1601372658.113][INFO]: Done waiting for pending navigations. Status: ok
+[1601372658.113][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "cc768395-7a7b-41f6-9d8e-d2f07987389e"
+}
+[1601372658.290][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND TypeElement {
+   "id": "cc768395-7a7b-41f6-9d8e-d2f07987389e",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1601372658.290][INFO]: Waiting for pending navigations...
+[1601372658.291][INFO]: Done waiting for pending navigations. Status: ok
+[1601372659.520][INFO]: Waiting for pending navigations...
+[1601372659.824][INFO]: Done waiting for pending navigations. Status: ok
+[1601372659.824][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE TypeElement
+[1601372659.831][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input#ContentPlaceHolderContent_TextBoxPassword"
+}
+[1601372659.832][INFO]: Waiting for pending navigations...
+[1601372659.833][INFO]: Done waiting for pending navigations. Status: ok
+[1601372659.858][INFO]: Waiting for pending navigations...
+[1601372659.859][INFO]: Done waiting for pending navigations. Status: ok
+[1601372659.859][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "a854a25c-578a-44cc-baa1-e2ef8eeb9c97"
+}
+[1601372659.868][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND TypeElement {
+   "id": "a854a25c-578a-44cc-baa1-e2ef8eeb9c97",
+   "text": "12345678",
+   "value": [ "1", "2", "3", "4", "5", "6", "7", "8" ]
+}
+[1601372659.868][INFO]: Waiting for pending navigations...
+[1601372659.868][INFO]: Done waiting for pending navigations. Status: ok
+[1601372660.118][INFO]: Waiting for pending navigations...
+[1601372660.170][INFO]: Done waiting for pending navigations. Status: ok
+[1601372660.170][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE TypeElement
+[1601372660.174][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input#ContentPlaceHolderContent_ButtonLogin"
+}
+[1601372660.174][INFO]: Waiting for pending navigations...
+[1601372660.175][INFO]: Done waiting for pending navigations. Status: ok
+[1601372660.192][INFO]: Waiting for pending navigations...
+[1601372660.194][INFO]: Done waiting for pending navigations. Status: ok
+[1601372660.194][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "87df003e-7b10-47ab-b36c-106bdabf4ef8"
+}
+[1601372660.223][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "87df003e-7b10-47ab-b36c-106bdabf4ef8"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1601372660.223][INFO]: Waiting for pending navigations...
+[1601372660.224][INFO]: Done waiting for pending navigations. Status: ok
+[1601372660.240][INFO]: Waiting for pending navigations...
+[1601372660.241][INFO]: Done waiting for pending navigations. Status: ok
+[1601372660.241][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE ExecuteScript true
+[1601372660.245][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "87df003e-7b10-47ab-b36c-106bdabf4ef8",
+      "element-6066-11e4-a52e-4f735466cecf": "87df003e-7b10-47ab-b36c-106bdabf4ef8"
+   }, 0, 0 ],
+   "script": "var rect = arguments[0].getBoundingClientRect();arguments[0].dispatchEvent(new MouseEvent('click', { 'view': window, 'bubbles': true, 'cancelable': true, 'clientX': rect.left + rect.width/2 + argum..."
+}
+[1601372660.245][INFO]: Waiting for pending navigations...
+[1601372660.245][INFO]: Done waiting for pending navigations. Status: ok
+[1601372660.336][INFO]: Waiting for pending navigations...
+[1601372665.191][INFO]: Done waiting for pending navigations. Status: ok
+[1601372665.191][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE ExecuteScript null
+[1601372665.196][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372665.196][INFO]: Waiting for pending navigations...
+[1601372665.197][INFO]: Done waiting for pending navigations. Status: ok
+[1601372665.214][INFO]: Waiting for pending navigations...
+[1601372665.214][INFO]: Done waiting for pending navigations. Status: ok
+[1601372665.214][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372665.511][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372665.511][INFO]: Waiting for pending navigations...
+[1601372665.512][INFO]: Done waiting for pending navigations. Status: ok
+[1601372665.527][INFO]: Waiting for pending navigations...
+[1601372665.528][INFO]: Done waiting for pending navigations. Status: ok
+[1601372665.528][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372665.734][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372665.734][INFO]: Waiting for pending navigations...
+[1601372665.736][INFO]: Done waiting for pending navigations. Status: ok
+[1601372665.751][INFO]: Waiting for pending navigations...
+[1601372665.752][INFO]: Done waiting for pending navigations. Status: ok
+[1601372665.752][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372665.961][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372665.961][INFO]: Waiting for pending navigations...
+[1601372665.963][INFO]: Done waiting for pending navigations. Status: ok
+[1601372665.977][INFO]: Waiting for pending navigations...
+[1601372665.978][INFO]: Done waiting for pending navigations. Status: ok
+[1601372665.978][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372666.186][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372666.186][INFO]: Waiting for pending navigations...
+[1601372666.187][INFO]: Done waiting for pending navigations. Status: ok
+[1601372666.201][INFO]: Waiting for pending navigations...
+[1601372666.203][INFO]: Done waiting for pending navigations. Status: ok
+[1601372666.203][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372666.411][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372666.412][INFO]: Waiting for pending navigations...
+[1601372666.413][INFO]: Done waiting for pending navigations. Status: ok
+[1601372666.427][INFO]: Waiting for pending navigations...
+[1601372666.428][INFO]: Done waiting for pending navigations. Status: ok
+[1601372666.428][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372666.637][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372666.637][INFO]: Waiting for pending navigations...
+[1601372666.638][INFO]: Done waiting for pending navigations. Status: ok
+[1601372666.655][INFO]: Waiting for pending navigations...
+[1601372666.656][INFO]: Done waiting for pending navigations. Status: ok
+[1601372666.656][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372666.865][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372666.865][INFO]: Waiting for pending navigations...
+[1601372666.867][INFO]: Done waiting for pending navigations. Status: ok
+[1601372666.882][INFO]: Waiting for pending navigations...
+[1601372666.883][INFO]: Done waiting for pending navigations. Status: ok
+[1601372666.883][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372667.089][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372667.089][INFO]: Waiting for pending navigations...
+[1601372667.090][INFO]: Done waiting for pending navigations. Status: ok
+[1601372667.098][INFO]: Waiting for pending navigations...
+[1601372667.098][INFO]: Done waiting for pending navigations. Status: ok
+[1601372667.099][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372667.305][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372667.305][INFO]: Waiting for pending navigations...
+[1601372667.306][INFO]: Done waiting for pending navigations. Status: ok
+[1601372667.320][INFO]: Waiting for pending navigations...
+[1601372667.322][INFO]: Done waiting for pending navigations. Status: ok
+[1601372667.322][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372667.531][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372667.531][INFO]: Waiting for pending navigations...
+[1601372667.532][INFO]: Done waiting for pending navigations. Status: ok
+[1601372667.546][INFO]: Waiting for pending navigations...
+[1601372667.547][INFO]: Done waiting for pending navigations. Status: ok
+[1601372667.547][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372667.755][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372667.756][INFO]: Waiting for pending navigations...
+[1601372667.757][INFO]: Done waiting for pending navigations. Status: ok
+[1601372667.773][INFO]: Waiting for pending navigations...
+[1601372667.775][INFO]: Done waiting for pending navigations. Status: ok
+[1601372667.775][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372667.983][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372667.983][INFO]: Waiting for pending navigations...
+[1601372667.985][INFO]: Done waiting for pending navigations. Status: ok
+[1601372667.999][INFO]: Waiting for pending navigations...
+[1601372668.000][INFO]: Done waiting for pending navigations. Status: ok
+[1601372668.001][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372668.209][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372668.210][INFO]: Waiting for pending navigations...
+[1601372668.211][INFO]: Done waiting for pending navigations. Status: ok
+[1601372668.227][INFO]: Waiting for pending navigations...
+[1601372668.228][INFO]: Done waiting for pending navigations. Status: ok
+[1601372668.229][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372668.437][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372668.437][INFO]: Waiting for pending navigations...
+[1601372668.438][INFO]: Done waiting for pending navigations. Status: ok
+[1601372668.456][INFO]: Waiting for pending navigations...
+[1601372668.457][INFO]: Done waiting for pending navigations. Status: ok
+[1601372668.457][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372668.664][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372668.664][INFO]: Waiting for pending navigations...
+[1601372668.665][INFO]: Done waiting for pending navigations. Status: ok
+[1601372668.679][INFO]: Waiting for pending navigations...
+[1601372668.681][INFO]: Done waiting for pending navigations. Status: ok
+[1601372668.681][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372668.888][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372668.888][INFO]: Waiting for pending navigations...
+[1601372668.889][INFO]: Done waiting for pending navigations. Status: ok
+[1601372668.903][INFO]: Waiting for pending navigations...
+[1601372668.905][INFO]: Done waiting for pending navigations. Status: ok
+[1601372668.905][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372669.113][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372669.113][INFO]: Waiting for pending navigations...
+[1601372669.115][INFO]: Done waiting for pending navigations. Status: ok
+[1601372669.128][INFO]: Waiting for pending navigations...
+[1601372669.129][INFO]: Done waiting for pending navigations. Status: ok
+[1601372669.130][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372669.336][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372669.336][INFO]: Waiting for pending navigations...
+[1601372669.526][INFO]: Done waiting for pending navigations. Status: ok
+[1601372669.706][INFO]: Waiting for pending navigations...
+[1601372669.745][INFO]: Done waiting for pending navigations. Status: ok
+[1601372669.745][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372669.950][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372669.950][INFO]: Waiting for pending navigations...
+[1601372669.951][INFO]: Done waiting for pending navigations. Status: ok
+[1601372669.957][INFO]: Waiting for pending navigations...
+[1601372669.958][INFO]: Done waiting for pending navigations. Status: ok
+[1601372669.958][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372670.162][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372670.162][INFO]: Waiting for pending navigations...
+[1601372670.163][INFO]: Done waiting for pending navigations. Status: ok
+[1601372670.173][INFO]: Waiting for pending navigations...
+[1601372670.174][INFO]: Done waiting for pending navigations. Status: ok
+[1601372670.174][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372670.378][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372670.378][INFO]: Waiting for pending navigations...
+[1601372670.379][INFO]: Done waiting for pending navigations. Status: ok
+[1601372670.386][INFO]: Waiting for pending navigations...
+[1601372670.386][INFO]: Done waiting for pending navigations. Status: ok
+[1601372670.386][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372670.593][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372670.593][INFO]: Waiting for pending navigations...
+[1601372670.595][INFO]: Done waiting for pending navigations. Status: ok
+[1601372670.610][INFO]: Waiting for pending navigations...
+[1601372670.611][INFO]: Done waiting for pending navigations. Status: ok
+[1601372670.611][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372670.818][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372670.818][INFO]: Waiting for pending navigations...
+[1601372670.819][INFO]: Done waiting for pending navigations. Status: ok
+[1601372670.827][INFO]: Waiting for pending navigations...
+[1601372670.828][INFO]: Done waiting for pending navigations. Status: ok
+[1601372670.828][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372671.034][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372671.034][INFO]: Waiting for pending navigations...
+[1601372671.046][INFO]: Done waiting for pending navigations. Status: ok
+[1601372671.063][INFO]: Waiting for pending navigations...
+[1601372671.065][INFO]: Done waiting for pending navigations. Status: ok
+[1601372671.065][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372671.274][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372671.274][INFO]: Waiting for pending navigations...
+[1601372672.971][INFO]: Done waiting for pending navigations. Status: ok
+[1601372672.978][INFO]: Waiting for pending navigations...
+[1601372672.979][INFO]: Done waiting for pending navigations. Status: ok
+[1601372672.979][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372673.185][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372673.185][INFO]: Waiting for pending navigations...
+[1601372673.186][INFO]: Done waiting for pending navigations. Status: ok
+[1601372673.202][INFO]: Waiting for pending navigations...
+[1601372673.204][INFO]: Done waiting for pending navigations. Status: ok
+[1601372673.204][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372673.409][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372673.409][INFO]: Waiting for pending navigations...
+[1601372673.410][INFO]: Done waiting for pending navigations. Status: ok
+[1601372673.415][INFO]: Waiting for pending navigations...
+[1601372673.416][INFO]: Done waiting for pending navigations. Status: ok
+[1601372673.416][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372673.624][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372673.625][INFO]: Waiting for pending navigations...
+[1601372673.627][INFO]: Done waiting for pending navigations. Status: ok
+[1601372673.639][INFO]: Waiting for pending navigations...
+[1601372673.640][INFO]: Done waiting for pending navigations. Status: ok
+[1601372673.640][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372673.845][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372673.845][INFO]: Waiting for pending navigations...
+[1601372673.846][INFO]: Done waiting for pending navigations. Status: ok
+[1601372673.851][INFO]: Waiting for pending navigations...
+[1601372673.852][INFO]: Done waiting for pending navigations. Status: ok
+[1601372673.852][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372674.056][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372674.056][INFO]: Waiting for pending navigations...
+[1601372674.056][INFO]: Done waiting for pending navigations. Status: ok
+[1601372674.062][INFO]: Waiting for pending navigations...
+[1601372674.062][INFO]: Done waiting for pending navigations. Status: ok
+[1601372674.062][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372674.268][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372674.268][INFO]: Waiting for pending navigations...
+[1601372674.269][INFO]: Done waiting for pending navigations. Status: ok
+[1601372674.284][INFO]: Waiting for pending navigations...
+[1601372674.285][INFO]: Done waiting for pending navigations. Status: ok
+[1601372674.285][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372674.492][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372674.492][INFO]: Waiting for pending navigations...
+[1601372674.493][INFO]: Done waiting for pending navigations. Status: ok
+[1601372674.508][INFO]: Waiting for pending navigations...
+[1601372674.509][INFO]: Done waiting for pending navigations. Status: ok
+[1601372674.509][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372674.721][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372674.721][INFO]: Waiting for pending navigations...
+[1601372674.723][INFO]: Done waiting for pending navigations. Status: ok
+[1601372674.740][INFO]: Waiting for pending navigations...
+[1601372674.740][INFO]: Done waiting for pending navigations. Status: ok
+[1601372674.740][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372674.946][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372674.946][INFO]: Waiting for pending navigations...
+[1601372674.948][INFO]: Done waiting for pending navigations. Status: ok
+[1601372674.961][INFO]: Waiting for pending navigations...
+[1601372674.963][INFO]: Done waiting for pending navigations. Status: ok
+[1601372674.963][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372675.171][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".media-body.media-content > h4 > ya-tr-span"
+}
+[1601372675.171][INFO]: Waiting for pending navigations...
+[1601372675.172][INFO]: Done waiting for pending navigations. Status: ok
+[1601372675.187][INFO]: Waiting for pending navigations...
+[1601372675.188][INFO]: Done waiting for pending navigations. Status: ok
+[1601372675.188][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":".media-body.media-content > h4 > ya-tr-span"}
+  (Session info: chrome=85.0.4183.102)
+[1601372675.671][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1601372675.671][INFO]: Waiting for pending navigations...
+[1601372675.672][INFO]: Done waiting for pending navigations. Status: ok
+[1601372675.735][INFO]: Waiting for pending navigations...
+[1601372675.736][INFO]: Done waiting for pending navigations. Status: ok
+[1601372675.736][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE ExecuteScript "\u003Chtml lang=\"en\">\u003Chead>\u003Cmeta charset=\"utf-8\">\u003Cmeta http-equiv=\"refresh\" content=\"1140\">\u003Cmeta name=\"viewport\" content=\"initial-scale=1.0,user-scalable=no\">\u003Cmeta name=\"description\" content=\"With Mood ..."
+[1601372675.836][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND Screenshot {
+
+}
+[1601372675.836][INFO]: Waiting for pending navigations...
+[1601372675.837][INFO]: Done waiting for pending navigations. Status: ok
+[1601372676.930][INFO]: Waiting for pending navigations...
+[1601372676.932][INFO]: Done waiting for pending navigations. Status: ok
+[1601372676.933][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB4AAAAPTCAYAAABR9xSMAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3Xd8leX9//H3fVb2JoQkQELCnkKYDkAExD2prVatbb+12tbRoVXbWu3wV1u1VmuXrbWuWgdOVBTZsmSPMBJICGTvdfa5f38kORASIMwMXs9Hac657+u+z+ec3..."
+[1601372677.550][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] COMMAND Quit {
+
+}
+[1601372681.377][INFO]: [384e0c9421ce383ffd5ea2312edf6caa] RESPONSE Quit

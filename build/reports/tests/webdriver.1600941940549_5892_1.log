@@ -1,0 +1,625 @@
+[1600941940.984][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 36718
+[1600941940.984][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1600941941.477][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Владичег\\IdeaProjects\\MoodPanda\\build\\downloads\\1600941939911_5892_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Владичег\\IdeaProjects\\MoodPanda\\build\\downloads\\1600941939911_5892_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1600941941.507][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Владичег\\IdeaProjects\\MoodPanda\\build\\downloads\\1600941939911_5892_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1600941941.545][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1600941941.549][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\684C~1\AppData\Local\Temp\scoped_dir8992_795876153" data:,
+[1600941944.245][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1600941946.258][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1600941948.278][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.102",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\684C~1\\AppData\\Local\\Temp\\scoped_dir8992_795876153"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:50317"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "08103d6d507acf8d88fcc38d36a52f2d"
+}
+[1600941948.346][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND MaximizeWindow {
+
+}
+[1600941948.346][INFO]: Waiting for pending navigations...
+[1600941948.348][INFO]: Done waiting for pending navigations. Status: ok
+[1600941948.456][INFO]: Waiting for pending navigations...
+[1600941948.457][INFO]: Done waiting for pending navigations. Status: ok
+[1600941948.457][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE MaximizeWindow {
+   "height": 1066,
+   "width": 1936,
+   "x": -8,
+   "y": -8
+}
+[1600941948.464][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND Navigate {
+   "url": "https://moodpanda.com/"
+}
+[1600941948.464][INFO]: Waiting for pending navigations...
+[1600941948.465][INFO]: Done waiting for pending navigations. Status: ok
+[1600941948.941][INFO]: Waiting for pending navigations...
+[1600941951.894][INFO]: Done waiting for pending navigations. Status: ok
+[1600941951.894][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE Navigate
+[1600941951.982][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941951.982][INFO]: Waiting for pending navigations...
+[1600941951.983][INFO]: Done waiting for pending navigations. Status: ok
+[1600941951.994][INFO]: Waiting for pending navigations...
+[1600941951.995][INFO]: Done waiting for pending navigations. Status: ok
+[1600941951.995][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941952.214][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941952.214][INFO]: Waiting for pending navigations...
+[1600941952.215][INFO]: Done waiting for pending navigations. Status: ok
+[1600941952.230][INFO]: Waiting for pending navigations...
+[1600941952.231][INFO]: Done waiting for pending navigations. Status: ok
+[1600941952.231][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941952.443][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941952.443][INFO]: Waiting for pending navigations...
+[1600941952.445][INFO]: Done waiting for pending navigations. Status: ok
+[1600941952.459][INFO]: Waiting for pending navigations...
+[1600941952.460][INFO]: Done waiting for pending navigations. Status: ok
+[1600941952.460][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941952.671][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941952.671][INFO]: Waiting for pending navigations...
+[1600941952.674][INFO]: Done waiting for pending navigations. Status: ok
+[1600941952.687][INFO]: Waiting for pending navigations...
+[1600941952.688][INFO]: Done waiting for pending navigations. Status: ok
+[1600941952.688][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941952.901][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941952.901][INFO]: Waiting for pending navigations...
+[1600941952.903][INFO]: Done waiting for pending navigations. Status: ok
+[1600941952.920][INFO]: Waiting for pending navigations...
+[1600941952.921][INFO]: Done waiting for pending navigations. Status: ok
+[1600941952.922][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941953.134][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941953.134][INFO]: Waiting for pending navigations...
+[1600941953.135][INFO]: Done waiting for pending navigations. Status: ok
+[1600941953.152][INFO]: Waiting for pending navigations...
+[1600941953.153][INFO]: Done waiting for pending navigations. Status: ok
+[1600941953.153][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941953.364][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941953.364][INFO]: Waiting for pending navigations...
+[1600941953.365][INFO]: Done waiting for pending navigations. Status: ok
+[1600941953.376][INFO]: Waiting for pending navigations...
+[1600941953.377][INFO]: Done waiting for pending navigations. Status: ok
+[1600941953.377][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941953.587][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941953.587][INFO]: Waiting for pending navigations...
+[1600941953.589][INFO]: Done waiting for pending navigations. Status: ok
+[1600941953.603][INFO]: Waiting for pending navigations...
+[1600941953.604][INFO]: Done waiting for pending navigations. Status: ok
+[1600941953.604][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941953.844][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941953.844][INFO]: Waiting for pending navigations...
+[1600941953.845][INFO]: Done waiting for pending navigations. Status: ok
+[1600941953.859][INFO]: Waiting for pending navigations...
+[1600941953.861][INFO]: Done waiting for pending navigations. Status: ok
+[1600941953.861][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941954.069][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941954.070][INFO]: Waiting for pending navigations...
+[1600941954.071][INFO]: Done waiting for pending navigations. Status: ok
+[1600941954.085][INFO]: Waiting for pending navigations...
+[1600941954.087][INFO]: Done waiting for pending navigations. Status: ok
+[1600941954.087][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941954.296][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941954.296][INFO]: Waiting for pending navigations...
+[1600941954.298][INFO]: Done waiting for pending navigations. Status: ok
+[1600941954.313][INFO]: Waiting for pending navigations...
+[1600941954.315][INFO]: Done waiting for pending navigations. Status: ok
+[1600941954.315][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941954.523][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941954.523][INFO]: Waiting for pending navigations...
+[1600941954.524][INFO]: Done waiting for pending navigations. Status: ok
+[1600941954.532][INFO]: Waiting for pending navigations...
+[1600941954.533][INFO]: Done waiting for pending navigations. Status: ok
+[1600941954.533][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941954.741][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941954.741][INFO]: Waiting for pending navigations...
+[1600941954.742][INFO]: Done waiting for pending navigations. Status: ok
+[1600941954.756][INFO]: Waiting for pending navigations...
+[1600941954.758][INFO]: Done waiting for pending navigations. Status: ok
+[1600941954.758][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941954.968][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941954.968][INFO]: Waiting for pending navigations...
+[1600941954.970][INFO]: Done waiting for pending navigations. Status: ok
+[1600941954.984][INFO]: Waiting for pending navigations...
+[1600941954.985][INFO]: Done waiting for pending navigations. Status: ok
+[1600941954.985][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941955.196][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941955.196][INFO]: Waiting for pending navigations...
+[1600941955.198][INFO]: Done waiting for pending navigations. Status: ok
+[1600941955.212][INFO]: Waiting for pending navigations...
+[1600941955.213][INFO]: Done waiting for pending navigations. Status: ok
+[1600941955.213][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941955.424][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941955.424][INFO]: Waiting for pending navigations...
+[1600941955.425][INFO]: Done waiting for pending navigations. Status: ok
+[1600941955.439][INFO]: Waiting for pending navigations...
+[1600941955.441][INFO]: Done waiting for pending navigations. Status: ok
+[1600941955.441][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941955.651][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941955.651][INFO]: Waiting for pending navigations...
+[1600941955.653][INFO]: Done waiting for pending navigations. Status: ok
+[1600941955.667][INFO]: Waiting for pending navigations...
+[1600941955.668][INFO]: Done waiting for pending navigations. Status: ok
+[1600941955.668][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941955.880][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941955.880][INFO]: Waiting for pending navigations...
+[1600941955.881][INFO]: Done waiting for pending navigations. Status: ok
+[1600941955.898][INFO]: Waiting for pending navigations...
+[1600941955.899][INFO]: Done waiting for pending navigations. Status: ok
+[1600941955.899][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941956.111][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941956.111][INFO]: Waiting for pending navigations...
+[1600941956.113][INFO]: Done waiting for pending navigations. Status: ok
+[1600941956.131][INFO]: Waiting for pending navigations...
+[1600941956.131][INFO]: Done waiting for pending navigations. Status: ok
+[1600941956.131][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941956.339][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941956.339][INFO]: Waiting for pending navigations...
+[1600941956.340][INFO]: Done waiting for pending navigations. Status: ok
+[1600941956.348][INFO]: Waiting for pending navigations...
+[1600941956.348][INFO]: Done waiting for pending navigations. Status: ok
+[1600941956.348][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941956.554][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941956.554][INFO]: Waiting for pending navigations...
+[1600941956.556][INFO]: Done waiting for pending navigations. Status: ok
+[1600941956.570][INFO]: Waiting for pending navigations...
+[1600941956.571][INFO]: Done waiting for pending navigations. Status: ok
+[1600941956.571][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941956.780][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941956.780][INFO]: Waiting for pending navigations...
+[1600941956.781][INFO]: Done waiting for pending navigations. Status: ok
+[1600941956.796][INFO]: Waiting for pending navigations...
+[1600941956.797][INFO]: Done waiting for pending navigations. Status: ok
+[1600941956.797][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941957.004][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941957.004][INFO]: Waiting for pending navigations...
+[1600941957.006][INFO]: Done waiting for pending navigations. Status: ok
+[1600941957.020][INFO]: Waiting for pending navigations...
+[1600941957.021][INFO]: Done waiting for pending navigations. Status: ok
+[1600941957.021][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941957.231][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941957.231][INFO]: Waiting for pending navigations...
+[1600941957.232][INFO]: Done waiting for pending navigations. Status: ok
+[1600941957.247][INFO]: Waiting for pending navigations...
+[1600941957.248][INFO]: Done waiting for pending navigations. Status: ok
+[1600941957.248][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941957.457][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941957.457][INFO]: Waiting for pending navigations...
+[1600941957.459][INFO]: Done waiting for pending navigations. Status: ok
+[1600941957.472][INFO]: Waiting for pending navigations...
+[1600941957.475][INFO]: Done waiting for pending navigations. Status: ok
+[1600941957.475][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941957.681][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941957.681][INFO]: Waiting for pending navigations...
+[1600941957.682][INFO]: Done waiting for pending navigations. Status: ok
+[1600941957.695][INFO]: Waiting for pending navigations...
+[1600941957.696][INFO]: Done waiting for pending navigations. Status: ok
+[1600941957.696][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941957.903][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941957.904][INFO]: Waiting for pending navigations...
+[1600941957.905][INFO]: Done waiting for pending navigations. Status: ok
+[1600941957.919][INFO]: Waiting for pending navigations...
+[1600941957.921][INFO]: Done waiting for pending navigations. Status: ok
+[1600941957.921][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941958.130][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941958.130][INFO]: Waiting for pending navigations...
+[1600941958.131][INFO]: Done waiting for pending navigations. Status: ok
+[1600941958.145][INFO]: Waiting for pending navigations...
+[1600941958.146][INFO]: Done waiting for pending navigations. Status: ok
+[1600941958.146][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941958.356][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941958.357][INFO]: Waiting for pending navigations...
+[1600941958.359][INFO]: Done waiting for pending navigations. Status: ok
+[1600941958.372][INFO]: Waiting for pending navigations...
+[1600941958.375][INFO]: Done waiting for pending navigations. Status: ok
+[1600941958.375][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941958.581][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941958.581][INFO]: Waiting for pending navigations...
+[1600941958.582][INFO]: Done waiting for pending navigations. Status: ok
+[1600941958.593][INFO]: Waiting for pending navigations...
+[1600941958.594][INFO]: Done waiting for pending navigations. Status: ok
+[1600941958.594][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941958.801][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941958.801][INFO]: Waiting for pending navigations...
+[1600941958.802][INFO]: Done waiting for pending navigations. Status: ok
+[1600941958.816][INFO]: Waiting for pending navigations...
+[1600941958.817][INFO]: Done waiting for pending navigations. Status: ok
+[1600941958.817][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941959.026][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941959.027][INFO]: Waiting for pending navigations...
+[1600941959.028][INFO]: Done waiting for pending navigations. Status: ok
+[1600941959.044][INFO]: Waiting for pending navigations...
+[1600941959.045][INFO]: Done waiting for pending navigations. Status: ok
+[1600941959.045][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941959.253][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941959.253][INFO]: Waiting for pending navigations...
+[1600941959.254][INFO]: Done waiting for pending navigations. Status: ok
+[1600941959.271][INFO]: Waiting for pending navigations...
+[1600941959.273][INFO]: Done waiting for pending navigations. Status: ok
+[1600941959.274][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941959.482][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941959.482][INFO]: Waiting for pending navigations...
+[1600941959.483][INFO]: Done waiting for pending navigations. Status: ok
+[1600941959.498][INFO]: Waiting for pending navigations...
+[1600941959.499][INFO]: Done waiting for pending navigations. Status: ok
+[1600941959.499][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941959.708][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941959.708][INFO]: Waiting for pending navigations...
+[1600941959.709][INFO]: Done waiting for pending navigations. Status: ok
+[1600941959.723][INFO]: Waiting for pending navigations...
+[1600941959.725][INFO]: Done waiting for pending navigations. Status: ok
+[1600941959.725][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941959.932][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941959.933][INFO]: Waiting for pending navigations...
+[1600941959.934][INFO]: Done waiting for pending navigations. Status: ok
+[1600941959.949][INFO]: Waiting for pending navigations...
+[1600941959.950][INFO]: Done waiting for pending navigations. Status: ok
+[1600941959.950][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941960.159][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941960.159][INFO]: Waiting for pending navigations...
+[1600941960.161][INFO]: Done waiting for pending navigations. Status: ok
+[1600941960.175][INFO]: Waiting for pending navigations...
+[1600941960.177][INFO]: Done waiting for pending navigations. Status: ok
+[1600941960.177][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941960.384][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941960.385][INFO]: Waiting for pending navigations...
+[1600941960.386][INFO]: Done waiting for pending navigations. Status: ok
+[1600941960.401][INFO]: Waiting for pending navigations...
+[1600941960.402][INFO]: Done waiting for pending navigations. Status: ok
+[1600941960.402][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941960.610][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941960.610][INFO]: Waiting for pending navigations...
+[1600941960.612][INFO]: Done waiting for pending navigations. Status: ok
+[1600941960.626][INFO]: Waiting for pending navigations...
+[1600941960.627][INFO]: Done waiting for pending navigations. Status: ok
+[1600941960.628][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941960.835][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941960.836][INFO]: Waiting for pending navigations...
+[1600941960.837][INFO]: Done waiting for pending navigations. Status: ok
+[1600941960.851][INFO]: Waiting for pending navigations...
+[1600941960.853][INFO]: Done waiting for pending navigations. Status: ok
+[1600941960.853][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941961.063][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941961.063][INFO]: Waiting for pending navigations...
+[1600941961.064][INFO]: Done waiting for pending navigations. Status: ok
+[1600941961.074][INFO]: Waiting for pending navigations...
+[1600941961.075][INFO]: Done waiting for pending navigations. Status: ok
+[1600941961.075][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941961.280][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941961.280][INFO]: Waiting for pending navigations...
+[1600941961.281][INFO]: Done waiting for pending navigations. Status: ok
+[1600941961.295][INFO]: Waiting for pending navigations...
+[1600941961.297][INFO]: Done waiting for pending navigations. Status: ok
+[1600941961.297][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941961.505][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941961.505][INFO]: Waiting for pending navigations...
+[1600941961.508][INFO]: Done waiting for pending navigations. Status: ok
+[1600941961.521][INFO]: Waiting for pending navigations...
+[1600941961.523][INFO]: Done waiting for pending navigations. Status: ok
+[1600941961.523][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941961.732][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND FindElement {
+   "using": "css selector",
+   "value": "[data-index='21-1']"
+}
+[1600941961.732][INFO]: Waiting for pending navigations...
+[1600941961.733][INFO]: Done waiting for pending navigations. Status: ok
+[1600941961.749][INFO]: Waiting for pending navigations...
+[1600941961.750][INFO]: Done waiting for pending navigations. Status: ok
+[1600941961.750][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"[data-index='21-1']"}
+  (Session info: chrome=85.0.4183.102)
+[1600941961.969][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1600941961.969][INFO]: Waiting for pending navigations...
+[1600941961.971][INFO]: Done waiting for pending navigations. Status: ok
+[1600941961.988][INFO]: Waiting for pending navigations...
+[1600941961.990][INFO]: Done waiting for pending navigations. Status: ok
+[1600941961.990][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE ExecuteScript "\u003Chtml lang=\"en\">\u003Chead>\n    \u003Cmeta charset=\"utf-8\">\n    \u003Cmeta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\">\n    \u003Cmeta name=\"description\" content=\"With Mood Panda ..."
+[1600941962.014][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND Screenshot {
+
+}
+[1600941962.015][INFO]: Waiting for pending navigations...
+[1600941962.015][INFO]: Done waiting for pending navigations. Status: ok
+[1600941963.116][INFO]: Waiting for pending navigations...
+[1600941963.117][INFO]: Done waiting for pending navigations. Status: ok
+[1600941963.118][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB4AAAAPTCAYAAABR9xSMAAAAAXNSR0IArs4c6QAAIABJREFUeJzcvVuWJEeOJXghqmbuEcFXsZjMrKruc6bX0v/1OSuZ1cwGZr5zZ5VkBt3NVAXzAVwAIqrm8SAze2aUtHAzfYiKQPC4AOQh//N//z9URNBaA//yUCgUiPPLsth9r..."
+[1600941963.521][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] COMMAND Quit {
+
+}
+[1600941964.702][INFO]: [08103d6d507acf8d88fcc38d36a52f2d] RESPONSE Quit

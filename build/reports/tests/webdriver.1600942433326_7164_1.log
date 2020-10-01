@@ -1,0 +1,1011 @@
+[1600942433.726][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 38577
+[1600942433.726][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1600942434.281][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Владичег\\IdeaProjects\\MoodPanda\\build\\downloads\\1600942432719_7164_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Владичег\\IdeaProjects\\MoodPanda\\build\\downloads\\1600942432719_7164_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1600942434.320][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Владичег\\IdeaProjects\\MoodPanda\\build\\downloads\\1600942432719_7164_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1600942434.338][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1600942434.340][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\684C~1\AppData\Local\Temp\scoped_dir2868_847616565" data:,
+[1600942435.461][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1600942437.470][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1600942439.495][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.102",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\684C~1\\AppData\\Local\\Temp\\scoped_dir2868_847616565"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:52133"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "e8621ac2593b7abb048f363446e0cda9"
+}
+[1600942439.554][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND MaximizeWindow {
+
+}
+[1600942439.554][INFO]: Waiting for pending navigations...
+[1600942439.556][INFO]: Done waiting for pending navigations. Status: ok
+[1600942439.664][INFO]: Waiting for pending navigations...
+[1600942439.665][INFO]: Done waiting for pending navigations. Status: ok
+[1600942439.665][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE MaximizeWindow {
+   "height": 1066,
+   "width": 1936,
+   "x": -8,
+   "y": -8
+}
+[1600942439.672][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND Navigate {
+   "url": "https://moodpanda.com/"
+}
+[1600942439.672][INFO]: Waiting for pending navigations...
+[1600942439.673][INFO]: Done waiting for pending navigations. Status: ok
+[1600942440.151][INFO]: Waiting for pending navigations...
+[1600942443.130][INFO]: Done waiting for pending navigations. Status: ok
+[1600942443.130][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE Navigate
+[1600942443.202][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".btn.btn-outline-light.hidden-height-570.page-scroll"
+}
+[1600942443.202][INFO]: Waiting for pending navigations...
+[1600942443.203][INFO]: Done waiting for pending navigations. Status: ok
+[1600942443.214][INFO]: Waiting for pending navigations...
+[1600942443.215][INFO]: Done waiting for pending navigations. Status: ok
+[1600942443.215][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "59d4abd9-e661-4b7b-8197-814b019305d8"
+}
+[1600942443.255][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "59d4abd9-e661-4b7b-8197-814b019305d8"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1600942443.255][INFO]: Waiting for pending navigations...
+[1600942443.256][INFO]: Done waiting for pending navigations. Status: ok
+[1600942443.269][INFO]: Waiting for pending navigations...
+[1600942443.269][INFO]: Done waiting for pending navigations. Status: ok
+[1600942443.269][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE ExecuteScript true
+[1600942443.275][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "59d4abd9-e661-4b7b-8197-814b019305d8",
+      "element-6066-11e4-a52e-4f735466cecf": "59d4abd9-e661-4b7b-8197-814b019305d8"
+   }, 0, 0 ],
+   "script": "var rect = arguments[0].getBoundingClientRect();arguments[0].dispatchEvent(new MouseEvent('click', { 'view': window, 'bubbles': true, 'cancelable': true, 'clientX': rect.left + rect.width/2 + argum..."
+}
+[1600942443.275][INFO]: Waiting for pending navigations...
+[1600942443.276][INFO]: Done waiting for pending navigations. Status: ok
+[1600942443.289][INFO]: Waiting for pending navigations...
+[1600942444.902][INFO]: Done waiting for pending navigations. Status: ok
+[1600942444.902][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE ExecuteScript null
+[1600942444.909][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942444.910][INFO]: Waiting for pending navigations...
+[1600942444.910][INFO]: Done waiting for pending navigations. Status: ok
+[1600942444.921][INFO]: Waiting for pending navigations...
+[1600942444.922][INFO]: Done waiting for pending navigations. Status: ok
+[1600942444.922][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942444.931][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942444.931][INFO]: Waiting for pending navigations...
+[1600942444.932][INFO]: Done waiting for pending navigations. Status: ok
+[1600942444.974][INFO]: Waiting for pending navigations...
+[1600942444.975][INFO]: Done waiting for pending navigations. Status: ok
+[1600942444.975][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942445.191][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942445.191][INFO]: Waiting for pending navigations...
+[1600942445.192][INFO]: Done waiting for pending navigations. Status: ok
+[1600942445.204][INFO]: Waiting for pending navigations...
+[1600942445.206][INFO]: Done waiting for pending navigations. Status: ok
+[1600942445.206][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942445.217][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942445.217][INFO]: Waiting for pending navigations...
+[1600942445.218][INFO]: Done waiting for pending navigations. Status: ok
+[1600942445.281][INFO]: Waiting for pending navigations...
+[1600942445.282][INFO]: Done waiting for pending navigations. Status: ok
+[1600942445.282][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942445.492][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942445.492][INFO]: Waiting for pending navigations...
+[1600942445.493][INFO]: Done waiting for pending navigations. Status: ok
+[1600942445.509][INFO]: Waiting for pending navigations...
+[1600942445.510][INFO]: Done waiting for pending navigations. Status: ok
+[1600942445.510][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942445.519][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942445.519][INFO]: Waiting for pending navigations...
+[1600942445.520][INFO]: Done waiting for pending navigations. Status: ok
+[1600942445.553][INFO]: Waiting for pending navigations...
+[1600942445.554][INFO]: Done waiting for pending navigations. Status: ok
+[1600942445.554][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942445.759][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942445.759][INFO]: Waiting for pending navigations...
+[1600942445.761][INFO]: Done waiting for pending navigations. Status: ok
+[1600942445.773][INFO]: Waiting for pending navigations...
+[1600942445.774][INFO]: Done waiting for pending navigations. Status: ok
+[1600942445.774][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942445.782][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942445.782][INFO]: Waiting for pending navigations...
+[1600942445.784][INFO]: Done waiting for pending navigations. Status: ok
+[1600942445.834][INFO]: Waiting for pending navigations...
+[1600942445.835][INFO]: Done waiting for pending navigations. Status: ok
+[1600942445.835][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942446.042][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942446.042][INFO]: Waiting for pending navigations...
+[1600942446.043][INFO]: Done waiting for pending navigations. Status: ok
+[1600942446.056][INFO]: Waiting for pending navigations...
+[1600942446.057][INFO]: Done waiting for pending navigations. Status: ok
+[1600942446.057][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942446.065][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942446.065][INFO]: Waiting for pending navigations...
+[1600942446.066][INFO]: Done waiting for pending navigations. Status: ok
+[1600942446.113][INFO]: Waiting for pending navigations...
+[1600942446.114][INFO]: Done waiting for pending navigations. Status: ok
+[1600942446.114][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942446.321][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942446.321][INFO]: Waiting for pending navigations...
+[1600942446.322][INFO]: Done waiting for pending navigations. Status: ok
+[1600942446.334][INFO]: Waiting for pending navigations...
+[1600942446.336][INFO]: Done waiting for pending navigations. Status: ok
+[1600942446.336][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942446.344][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942446.345][INFO]: Waiting for pending navigations...
+[1600942446.346][INFO]: Done waiting for pending navigations. Status: ok
+[1600942446.406][INFO]: Waiting for pending navigations...
+[1600942446.407][INFO]: Done waiting for pending navigations. Status: ok
+[1600942446.407][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942446.616][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942446.616][INFO]: Waiting for pending navigations...
+[1600942446.617][INFO]: Done waiting for pending navigations. Status: ok
+[1600942446.629][INFO]: Waiting for pending navigations...
+[1600942446.630][INFO]: Done waiting for pending navigations. Status: ok
+[1600942446.630][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942446.638][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942446.638][INFO]: Waiting for pending navigations...
+[1600942446.640][INFO]: Done waiting for pending navigations. Status: ok
+[1600942446.695][INFO]: Waiting for pending navigations...
+[1600942446.695][INFO]: Done waiting for pending navigations. Status: ok
+[1600942446.695][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942446.902][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942446.902][INFO]: Waiting for pending navigations...
+[1600942446.903][INFO]: Done waiting for pending navigations. Status: ok
+[1600942446.915][INFO]: Waiting for pending navigations...
+[1600942446.916][INFO]: Done waiting for pending navigations. Status: ok
+[1600942446.916][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942446.924][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942446.924][INFO]: Waiting for pending navigations...
+[1600942446.925][INFO]: Done waiting for pending navigations. Status: ok
+[1600942446.988][INFO]: Waiting for pending navigations...
+[1600942446.989][INFO]: Done waiting for pending navigations. Status: ok
+[1600942446.989][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942447.196][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942447.196][INFO]: Waiting for pending navigations...
+[1600942447.197][INFO]: Done waiting for pending navigations. Status: ok
+[1600942447.209][INFO]: Waiting for pending navigations...
+[1600942447.210][INFO]: Done waiting for pending navigations. Status: ok
+[1600942447.210][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942447.217][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942447.217][INFO]: Waiting for pending navigations...
+[1600942447.218][INFO]: Done waiting for pending navigations. Status: ok
+[1600942447.257][INFO]: Waiting for pending navigations...
+[1600942447.258][INFO]: Done waiting for pending navigations. Status: ok
+[1600942447.258][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942447.464][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942447.464][INFO]: Waiting for pending navigations...
+[1600942447.466][INFO]: Done waiting for pending navigations. Status: ok
+[1600942447.499][INFO]: Waiting for pending navigations...
+[1600942447.499][INFO]: Done waiting for pending navigations. Status: ok
+[1600942447.499][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942447.502][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942447.502][INFO]: Waiting for pending navigations...
+[1600942447.503][INFO]: Done waiting for pending navigations. Status: ok
+[1600942447.525][INFO]: Waiting for pending navigations...
+[1600942447.526][INFO]: Done waiting for pending navigations. Status: ok
+[1600942447.526][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942447.731][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942447.731][INFO]: Waiting for pending navigations...
+[1600942447.732][INFO]: Done waiting for pending navigations. Status: ok
+[1600942447.745][INFO]: Waiting for pending navigations...
+[1600942447.746][INFO]: Done waiting for pending navigations. Status: ok
+[1600942447.746][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942447.754][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942447.754][INFO]: Waiting for pending navigations...
+[1600942447.755][INFO]: Done waiting for pending navigations. Status: ok
+[1600942447.797][INFO]: Waiting for pending navigations...
+[1600942447.798][INFO]: Done waiting for pending navigations. Status: ok
+[1600942447.798][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942448.004][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942448.004][INFO]: Waiting for pending navigations...
+[1600942448.006][INFO]: Done waiting for pending navigations. Status: ok
+[1600942448.017][INFO]: Waiting for pending navigations...
+[1600942448.019][INFO]: Done waiting for pending navigations. Status: ok
+[1600942448.019][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942448.030][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942448.031][INFO]: Waiting for pending navigations...
+[1600942448.033][INFO]: Done waiting for pending navigations. Status: ok
+[1600942448.066][INFO]: Waiting for pending navigations...
+[1600942448.066][INFO]: Done waiting for pending navigations. Status: ok
+[1600942448.066][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942448.272][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942448.273][INFO]: Waiting for pending navigations...
+[1600942448.274][INFO]: Done waiting for pending navigations. Status: ok
+[1600942448.286][INFO]: Waiting for pending navigations...
+[1600942448.288][INFO]: Done waiting for pending navigations. Status: ok
+[1600942448.288][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942448.294][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942448.294][INFO]: Waiting for pending navigations...
+[1600942448.295][INFO]: Done waiting for pending navigations. Status: ok
+[1600942448.356][INFO]: Waiting for pending navigations...
+[1600942448.357][INFO]: Done waiting for pending navigations. Status: ok
+[1600942448.357][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942448.564][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942448.564][INFO]: Waiting for pending navigations...
+[1600942448.566][INFO]: Done waiting for pending navigations. Status: ok
+[1600942448.578][INFO]: Waiting for pending navigations...
+[1600942448.580][INFO]: Done waiting for pending navigations. Status: ok
+[1600942448.580][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942448.586][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942448.586][INFO]: Waiting for pending navigations...
+[1600942448.588][INFO]: Done waiting for pending navigations. Status: ok
+[1600942448.633][INFO]: Waiting for pending navigations...
+[1600942448.634][INFO]: Done waiting for pending navigations. Status: ok
+[1600942448.634][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942448.842][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942448.842][INFO]: Waiting for pending navigations...
+[1600942448.844][INFO]: Done waiting for pending navigations. Status: ok
+[1600942448.854][INFO]: Waiting for pending navigations...
+[1600942448.855][INFO]: Done waiting for pending navigations. Status: ok
+[1600942448.855][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942448.859][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942448.860][INFO]: Waiting for pending navigations...
+[1600942448.860][INFO]: Done waiting for pending navigations. Status: ok
+[1600942448.895][INFO]: Waiting for pending navigations...
+[1600942448.895][INFO]: Done waiting for pending navigations. Status: ok
+[1600942448.896][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942449.103][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942449.103][INFO]: Waiting for pending navigations...
+[1600942449.104][INFO]: Done waiting for pending navigations. Status: ok
+[1600942449.116][INFO]: Waiting for pending navigations...
+[1600942449.117][INFO]: Done waiting for pending navigations. Status: ok
+[1600942449.117][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942449.126][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942449.126][INFO]: Waiting for pending navigations...
+[1600942449.127][INFO]: Done waiting for pending navigations. Status: ok
+[1600942449.167][INFO]: Waiting for pending navigations...
+[1600942449.168][INFO]: Done waiting for pending navigations. Status: ok
+[1600942449.168][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942449.374][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942449.374][INFO]: Waiting for pending navigations...
+[1600942449.376][INFO]: Done waiting for pending navigations. Status: ok
+[1600942449.387][INFO]: Waiting for pending navigations...
+[1600942449.389][INFO]: Done waiting for pending navigations. Status: ok
+[1600942449.389][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942449.396][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942449.396][INFO]: Waiting for pending navigations...
+[1600942449.397][INFO]: Done waiting for pending navigations. Status: ok
+[1600942449.441][INFO]: Waiting for pending navigations...
+[1600942449.442][INFO]: Done waiting for pending navigations. Status: ok
+[1600942449.442][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942449.648][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942449.648][INFO]: Waiting for pending navigations...
+[1600942449.649][INFO]: Done waiting for pending navigations. Status: ok
+[1600942449.662][INFO]: Waiting for pending navigations...
+[1600942449.663][INFO]: Done waiting for pending navigations. Status: ok
+[1600942449.663][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942449.669][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942449.669][INFO]: Waiting for pending navigations...
+[1600942449.670][INFO]: Done waiting for pending navigations. Status: ok
+[1600942449.725][INFO]: Waiting for pending navigations...
+[1600942449.726][INFO]: Done waiting for pending navigations. Status: ok
+[1600942449.726][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942449.932][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942449.932][INFO]: Waiting for pending navigations...
+[1600942449.934][INFO]: Done waiting for pending navigations. Status: ok
+[1600942449.946][INFO]: Waiting for pending navigations...
+[1600942449.948][INFO]: Done waiting for pending navigations. Status: ok
+[1600942449.948][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942449.955][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942449.955][INFO]: Waiting for pending navigations...
+[1600942449.956][INFO]: Done waiting for pending navigations. Status: ok
+[1600942450.019][INFO]: Waiting for pending navigations...
+[1600942450.020][INFO]: Done waiting for pending navigations. Status: ok
+[1600942450.020][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942450.227][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942450.227][INFO]: Waiting for pending navigations...
+[1600942450.229][INFO]: Done waiting for pending navigations. Status: ok
+[1600942450.241][INFO]: Waiting for pending navigations...
+[1600942450.243][INFO]: Done waiting for pending navigations. Status: ok
+[1600942450.243][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942450.249][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942450.250][INFO]: Waiting for pending navigations...
+[1600942450.252][INFO]: Done waiting for pending navigations. Status: ok
+[1600942450.284][INFO]: Waiting for pending navigations...
+[1600942450.285][INFO]: Done waiting for pending navigations. Status: ok
+[1600942450.285][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942450.489][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942450.490][INFO]: Waiting for pending navigations...
+[1600942450.491][INFO]: Done waiting for pending navigations. Status: ok
+[1600942450.503][INFO]: Waiting for pending navigations...
+[1600942450.504][INFO]: Done waiting for pending navigations. Status: ok
+[1600942450.504][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942450.510][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942450.510][INFO]: Waiting for pending navigations...
+[1600942450.511][INFO]: Done waiting for pending navigations. Status: ok
+[1600942450.553][INFO]: Waiting for pending navigations...
+[1600942450.553][INFO]: Done waiting for pending navigations. Status: ok
+[1600942450.553][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942450.761][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942450.761][INFO]: Waiting for pending navigations...
+[1600942450.762][INFO]: Done waiting for pending navigations. Status: ok
+[1600942450.774][INFO]: Waiting for pending navigations...
+[1600942450.775][INFO]: Done waiting for pending navigations. Status: ok
+[1600942450.776][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942450.782][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942450.782][INFO]: Waiting for pending navigations...
+[1600942450.783][INFO]: Done waiting for pending navigations. Status: ok
+[1600942450.837][INFO]: Waiting for pending navigations...
+[1600942450.837][INFO]: Done waiting for pending navigations. Status: ok
+[1600942450.837][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942451.044][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942451.044][INFO]: Waiting for pending navigations...
+[1600942451.045][INFO]: Done waiting for pending navigations. Status: ok
+[1600942451.058][INFO]: Waiting for pending navigations...
+[1600942451.059][INFO]: Done waiting for pending navigations. Status: ok
+[1600942451.060][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942451.066][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942451.066][INFO]: Waiting for pending navigations...
+[1600942451.068][INFO]: Done waiting for pending navigations. Status: ok
+[1600942451.097][INFO]: Waiting for pending navigations...
+[1600942451.097][INFO]: Done waiting for pending navigations. Status: ok
+[1600942451.097][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942451.301][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942451.301][INFO]: Waiting for pending navigations...
+[1600942451.303][INFO]: Done waiting for pending navigations. Status: ok
+[1600942451.315][INFO]: Waiting for pending navigations...
+[1600942451.317][INFO]: Done waiting for pending navigations. Status: ok
+[1600942451.317][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942451.322][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942451.322][INFO]: Waiting for pending navigations...
+[1600942451.324][INFO]: Done waiting for pending navigations. Status: ok
+[1600942451.386][INFO]: Waiting for pending navigations...
+[1600942451.387][INFO]: Done waiting for pending navigations. Status: ok
+[1600942451.388][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942451.594][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942451.594][INFO]: Waiting for pending navigations...
+[1600942451.595][INFO]: Done waiting for pending navigations. Status: ok
+[1600942451.609][INFO]: Waiting for pending navigations...
+[1600942451.610][INFO]: Done waiting for pending navigations. Status: ok
+[1600942451.610][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942451.616][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942451.616][INFO]: Waiting for pending navigations...
+[1600942451.617][INFO]: Done waiting for pending navigations. Status: ok
+[1600942451.658][INFO]: Waiting for pending navigations...
+[1600942451.658][INFO]: Done waiting for pending navigations. Status: ok
+[1600942451.658][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942451.866][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942451.866][INFO]: Waiting for pending navigations...
+[1600942451.998][INFO]: Done waiting for pending navigations. Status: ok
+[1600942452.006][INFO]: Waiting for pending navigations...
+[1600942452.007][INFO]: Done waiting for pending navigations. Status: ok
+[1600942452.007][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942452.011][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942452.012][INFO]: Waiting for pending navigations...
+[1600942452.012][INFO]: Done waiting for pending navigations. Status: ok
+[1600942452.040][INFO]: Waiting for pending navigations...
+[1600942452.041][INFO]: Done waiting for pending navigations. Status: ok
+[1600942452.041][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942452.245][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942452.245][INFO]: Waiting for pending navigations...
+[1600942452.247][INFO]: Done waiting for pending navigations. Status: ok
+[1600942452.258][INFO]: Waiting for pending navigations...
+[1600942452.260][INFO]: Done waiting for pending navigations. Status: ok
+[1600942452.260][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942452.265][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942452.265][INFO]: Waiting for pending navigations...
+[1600942452.266][INFO]: Done waiting for pending navigations. Status: ok
+[1600942452.315][INFO]: Waiting for pending navigations...
+[1600942452.315][INFO]: Done waiting for pending navigations. Status: ok
+[1600942452.315][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942452.521][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942452.521][INFO]: Waiting for pending navigations...
+[1600942452.523][INFO]: Done waiting for pending navigations. Status: ok
+[1600942452.534][INFO]: Waiting for pending navigations...
+[1600942452.535][INFO]: Done waiting for pending navigations. Status: ok
+[1600942452.535][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942452.541][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942452.541][INFO]: Waiting for pending navigations...
+[1600942452.542][INFO]: Done waiting for pending navigations. Status: ok
+[1600942452.588][INFO]: Waiting for pending navigations...
+[1600942452.589][INFO]: Done waiting for pending navigations. Status: ok
+[1600942452.589][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942452.792][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942452.792][INFO]: Waiting for pending navigations...
+[1600942452.794][INFO]: Done waiting for pending navigations. Status: ok
+[1600942452.806][INFO]: Waiting for pending navigations...
+[1600942452.807][INFO]: Done waiting for pending navigations. Status: ok
+[1600942452.807][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942452.813][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942452.813][INFO]: Waiting for pending navigations...
+[1600942452.814][INFO]: Done waiting for pending navigations. Status: ok
+[1600942452.872][INFO]: Waiting for pending navigations...
+[1600942452.873][INFO]: Done waiting for pending navigations. Status: ok
+[1600942452.873][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942453.080][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942453.080][INFO]: Waiting for pending navigations...
+[1600942453.082][INFO]: Done waiting for pending navigations. Status: ok
+[1600942453.095][INFO]: Waiting for pending navigations...
+[1600942453.097][INFO]: Done waiting for pending navigations. Status: ok
+[1600942453.097][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942453.103][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942453.103][INFO]: Waiting for pending navigations...
+[1600942453.105][INFO]: Done waiting for pending navigations. Status: ok
+[1600942453.135][INFO]: Waiting for pending navigations...
+[1600942453.136][INFO]: Done waiting for pending navigations. Status: ok
+[1600942453.136][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942453.340][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942453.340][INFO]: Waiting for pending navigations...
+[1600942453.341][INFO]: Done waiting for pending navigations. Status: ok
+[1600942453.353][INFO]: Waiting for pending navigations...
+[1600942453.355][INFO]: Done waiting for pending navigations. Status: ok
+[1600942453.355][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942453.361][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942453.361][INFO]: Waiting for pending navigations...
+[1600942453.362][INFO]: Done waiting for pending navigations. Status: ok
+[1600942453.416][INFO]: Waiting for pending navigations...
+[1600942453.417][INFO]: Done waiting for pending navigations. Status: ok
+[1600942453.417][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942453.620][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942453.621][INFO]: Waiting for pending navigations...
+[1600942453.622][INFO]: Done waiting for pending navigations. Status: ok
+[1600942453.635][INFO]: Waiting for pending navigations...
+[1600942453.637][INFO]: Done waiting for pending navigations. Status: ok
+[1600942453.637][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942453.642][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942453.642][INFO]: Waiting for pending navigations...
+[1600942453.643][INFO]: Done waiting for pending navigations. Status: ok
+[1600942453.691][INFO]: Waiting for pending navigations...
+[1600942453.692][INFO]: Done waiting for pending navigations. Status: ok
+[1600942453.692][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942453.896][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942453.896][INFO]: Waiting for pending navigations...
+[1600942453.897][INFO]: Done waiting for pending navigations. Status: ok
+[1600942453.901][INFO]: Waiting for pending navigations...
+[1600942453.902][INFO]: Done waiting for pending navigations. Status: ok
+[1600942453.902][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942453.905][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942453.905][INFO]: Waiting for pending navigations...
+[1600942453.906][INFO]: Done waiting for pending navigations. Status: ok
+[1600942453.927][INFO]: Waiting for pending navigations...
+[1600942453.928][INFO]: Done waiting for pending navigations. Status: ok
+[1600942453.928][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942454.131][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942454.132][INFO]: Waiting for pending navigations...
+[1600942454.133][INFO]: Done waiting for pending navigations. Status: ok
+[1600942454.145][INFO]: Waiting for pending navigations...
+[1600942454.146][INFO]: Done waiting for pending navigations. Status: ok
+[1600942454.146][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942454.152][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942454.152][INFO]: Waiting for pending navigations...
+[1600942454.153][INFO]: Done waiting for pending navigations. Status: ok
+[1600942454.190][INFO]: Waiting for pending navigations...
+[1600942454.190][INFO]: Done waiting for pending navigations. Status: ok
+[1600942454.190][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942454.394][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942454.395][INFO]: Waiting for pending navigations...
+[1600942454.396][INFO]: Done waiting for pending navigations. Status: ok
+[1600942454.408][INFO]: Waiting for pending navigations...
+[1600942454.409][INFO]: Done waiting for pending navigations. Status: ok
+[1600942454.409][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942454.414][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942454.415][INFO]: Waiting for pending navigations...
+[1600942454.416][INFO]: Done waiting for pending navigations. Status: ok
+[1600942454.469][INFO]: Waiting for pending navigations...
+[1600942454.470][INFO]: Done waiting for pending navigations. Status: ok
+[1600942454.470][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942454.676][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".panel-body .form-group:nth-of-type(1)"
+}
+[1600942454.676][INFO]: Waiting for pending navigations...
+[1600942454.677][INFO]: Done waiting for pending navigations. Status: ok
+[1600942454.689][INFO]: Waiting for pending navigations...
+[1600942454.690][INFO]: Done waiting for pending navigations. Status: ok
+[1600942454.690][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7"
+}
+[1600942454.697][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND TypeElement {
+   "id": "9bc990c8-5e08-4139-aae4-3248f9ee2cb7",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942454.697][INFO]: Waiting for pending navigations...
+[1600942454.698][INFO]: Done waiting for pending navigations. Status: ok
+[1600942454.733][INFO]: Waiting for pending navigations...
+[1600942454.733][INFO]: Done waiting for pending navigations. Status: ok
+[1600942454.733][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE TypeElement ERROR element not interactable
+  (Session info: chrome=85.0.4183.102)
+[1600942454.952][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1600942454.952][INFO]: Waiting for pending navigations...
+[1600942454.953][INFO]: Done waiting for pending navigations. Status: ok
+[1600942454.966][INFO]: Waiting for pending navigations...
+[1600942454.967][INFO]: Done waiting for pending navigations. Status: ok
+[1600942454.968][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE ExecuteScript "\u003Chtml lang=\"en\">\u003Chead>\u003Cmeta charset=\"utf-8\">\u003Cmeta http-equiv=\"refresh\" content=\"1140\">\u003Cmeta name=\"viewport\" content=\"initial-scale=1.0,user-scalable=no\">\u003Cmeta name=\"description\" content=\"With Mood ..."
+[1600942454.981][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND Screenshot {
+
+}
+[1600942454.982][INFO]: Waiting for pending navigations...
+[1600942454.983][INFO]: Done waiting for pending navigations. Status: ok
+[1600942455.405][INFO]: Waiting for pending navigations...
+[1600942455.408][INFO]: Done waiting for pending navigations. Status: ok
+[1600942455.408][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAB4AAAAPTCAYAAABR9xSMAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X2U1nWdP/7nNbcMw3DnECgoNmoCimjwc9TCm7TNu5a0ciPdI/ttv5amp69rbW71rV23Wts0t2NZseumZ1NaK1fK1N3FUtlU+mppaEIgiYGBIPcjzO31+2O4G..."
+[1600942455.452][INFO]: [e8621ac2593b7abb048f363446e0cda9] COMMAND Quit {
+
+}
+[1600942458.836][INFO]: [e8621ac2593b7abb048f363446e0cda9] RESPONSE Quit

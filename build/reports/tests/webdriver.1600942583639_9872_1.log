@@ -1,0 +1,223 @@
+[1600942584.276][INFO]: Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 17478
+[1600942584.276][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1600942584.538][INFO]: [086e213c0647d3a6d38da6eba134dd00] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Владичег\\IdeaProjects\\MoodPanda\\build\\downloads\\1600942583045_9872_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Владичег\\IdeaProjects\\MoodPanda\\build\\downloads\\1600942583045_9872_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1600942584.548][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Владичег\\IdeaProjects\\MoodPanda\\build\\downloads\\1600942583045_9872_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1600942584.555][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1600942584.556][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\684C~1\AppData\Local\Temp\scoped_dir7548_898527951" data:,
+[1600942587.809][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1600942589.817][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1600942591.835][INFO]: [086e213c0647d3a6d38da6eba134dd00] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "85.0.4183.102",
+      "chrome": {
+         "chromedriverVersion": "85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689})",
+         "userDataDir": "C:\\Users\\684C~1\\AppData\\Local\\Temp\\scoped_dir7548_898527951"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:52519"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "086e213c0647d3a6d38da6eba134dd00"
+}
+[1600942591.900][INFO]: [086e213c0647d3a6d38da6eba134dd00] COMMAND MaximizeWindow {
+
+}
+[1600942591.900][INFO]: Waiting for pending navigations...
+[1600942591.902][INFO]: Done waiting for pending navigations. Status: ok
+[1600942592.012][INFO]: Waiting for pending navigations...
+[1600942592.013][INFO]: Done waiting for pending navigations. Status: ok
+[1600942592.013][INFO]: [086e213c0647d3a6d38da6eba134dd00] RESPONSE MaximizeWindow {
+   "height": 1066,
+   "width": 1936,
+   "x": -8,
+   "y": -8
+}
+[1600942592.029][INFO]: [086e213c0647d3a6d38da6eba134dd00] COMMAND Navigate {
+   "url": "https://moodpanda.com/"
+}
+[1600942592.029][INFO]: Waiting for pending navigations...
+[1600942592.030][INFO]: Done waiting for pending navigations. Status: ok
+[1600942592.520][INFO]: Waiting for pending navigations...
+[1600942598.583][INFO]: Done waiting for pending navigations. Status: ok
+[1600942598.583][INFO]: [086e213c0647d3a6d38da6eba134dd00] RESPONSE Navigate
+[1600942598.663][INFO]: [086e213c0647d3a6d38da6eba134dd00] COMMAND FindElement {
+   "using": "css selector",
+   "value": ".btn.btn-outline-light.hidden-height-570.page-scroll"
+}
+[1600942598.663][INFO]: Waiting for pending navigations...
+[1600942598.664][INFO]: Done waiting for pending navigations. Status: ok
+[1600942598.675][INFO]: Waiting for pending navigations...
+[1600942598.676][INFO]: Done waiting for pending navigations. Status: ok
+[1600942598.676][INFO]: [086e213c0647d3a6d38da6eba134dd00] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6fb64be5-1c55-44ff-83a3-f35006cef7a3"
+}
+[1600942598.719][INFO]: [086e213c0647d3a6d38da6eba134dd00] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "6fb64be5-1c55-44ff-83a3-f35006cef7a3"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1600942598.719][INFO]: Waiting for pending navigations...
+[1600942598.720][INFO]: Done waiting for pending navigations. Status: ok
+[1600942598.733][INFO]: Waiting for pending navigations...
+[1600942598.733][INFO]: Done waiting for pending navigations. Status: ok
+[1600942598.733][INFO]: [086e213c0647d3a6d38da6eba134dd00] RESPONSE ExecuteScript true
+[1600942598.737][INFO]: [086e213c0647d3a6d38da6eba134dd00] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "6fb64be5-1c55-44ff-83a3-f35006cef7a3",
+      "element-6066-11e4-a52e-4f735466cecf": "6fb64be5-1c55-44ff-83a3-f35006cef7a3"
+   }, 0, 0 ],
+   "script": "var rect = arguments[0].getBoundingClientRect();arguments[0].dispatchEvent(new MouseEvent('click', { 'view': window, 'bubbles': true, 'cancelable': true, 'clientX': rect.left + rect.width/2 + argum..."
+}
+[1600942598.737][INFO]: Waiting for pending navigations...
+[1600942598.738][INFO]: Done waiting for pending navigations. Status: ok
+[1600942598.750][INFO]: Waiting for pending navigations...
+[1600942601.097][INFO]: Done waiting for pending navigations. Status: ok
+[1600942601.097][INFO]: [086e213c0647d3a6d38da6eba134dd00] RESPONSE ExecuteScript null
+[1600942601.104][INFO]: [086e213c0647d3a6d38da6eba134dd00] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input#ContentPlaceHolderContent_TextBoxEmail"
+}
+[1600942601.104][INFO]: Waiting for pending navigations...
+[1600942601.105][INFO]: Done waiting for pending navigations. Status: ok
+[1600942601.120][INFO]: Waiting for pending navigations...
+[1600942601.121][INFO]: Done waiting for pending navigations. Status: ok
+[1600942601.121][INFO]: [086e213c0647d3a6d38da6eba134dd00] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "da713781-847c-4780-9174-5f6e7ff89bb9"
+}
+[1600942601.132][INFO]: [086e213c0647d3a6d38da6eba134dd00] COMMAND TypeElement {
+   "id": "da713781-847c-4780-9174-5f6e7ff89bb9",
+   "text": "nikitko_1991@mail.ru",
+   "value": [ "n", "i", "k", "i", "t", "k", "o", "_", "1", "9", "9", "1", "@", "m", "a", "i", "l", ".", "r", "..." ]
+}
+[1600942601.132][INFO]: Waiting for pending navigations...
+[1600942601.133][INFO]: Done waiting for pending navigations. Status: ok
+[1600942601.828][INFO]: Waiting for pending navigations...
+[1600942601.831][INFO]: Done waiting for pending navigations. Status: ok
+[1600942601.831][INFO]: [086e213c0647d3a6d38da6eba134dd00] RESPONSE TypeElement
+[1600942601.854][INFO]: [086e213c0647d3a6d38da6eba134dd00] COMMAND Quit {
+
+}
+[1600942603.281][INFO]: [086e213c0647d3a6d38da6eba134dd00] RESPONSE Quit
